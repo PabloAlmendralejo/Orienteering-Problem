@@ -1,0 +1,24 @@
+# Data files (large, not tracked)
+data/
+*.tif
+*.omap
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.numba_cache/
+
+# Output
+*.png
+*.jpg
+op_output_*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
