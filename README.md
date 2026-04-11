@@ -114,9 +114,8 @@ within the 15-minute time limit.
 
 ## Data
 
-Input data files (TIF, DEM, OMAP) are not tracked in git due to size.
-Place them in `data/torremocha/` and `data/la_muela/` as listed above,
-or set the `ORIENTEERING_DATA_DIR` environment variable.
+Input data files (TIF maps, DEMs, OMAP files) are included in the repository
+under `data/torremocha/` and `data/la_muela/`, tracked via Git LFS for large files.
 
 ## Citation
 
